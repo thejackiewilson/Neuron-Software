@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://media2.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif?cid=ecf05e47ug0b1ufqv8j676felhkjdpai3jkba1i1sd7rtkkm&rid=giphy.gif&ct=g);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 44px;
+    background-color: white;
+    
+}
+
+h2 {
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}
