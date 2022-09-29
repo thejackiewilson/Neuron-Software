@@ -6,13 +6,13 @@
 
 body {
   background-color: #000;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   margin: 0;
 }
 
@@ -21,9 +21,9 @@ h1 {
 }
 
 button {
-  background-color: green;
-  color: #fff;
-  border: 1px green solid;
+  background-color: powderblue;
+  color: black;
+  border: 1px powderblue solid;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
