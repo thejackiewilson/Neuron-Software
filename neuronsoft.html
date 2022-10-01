@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel = "stylesheet" href = "neuronsoftinfo.css" type="text/css">
         <title>Neuron Software Coporation Main</title>
-      <style>
+      <style type="text/CSS" href="neuronsoftinfo.css"> 
         body {
           background-image: url(https://i.pinimg.com/originals/c4/b1/99/c4b19969def51164ea4ad9a290a217bf.gif);
           background-repeat: no-repeat;
@@ -26,11 +26,53 @@
           background-repeat: no-repeat;
           background-image: fixed;
           background-size: auto;
+          margin-top: 0;
         }
+
+        img.NeuronGif {
+          position: relative;
+          padding-left: 50px;
+          margin-top: auto;
+          margin-inline-start: auto;
+        }
+
+        nav.navbar {
+          position: relative;
+          padding-top: 50px;
+          padding-block-start: auto;
+          border-style: dashed;
+          display: block;
+        }
+
+        p {
+          padding-left: auto;
+          padding-right: auto;
+          margin-left: auto;
+          margin-right: auto;
+          scroll-margin-left: auto;
+          scroll-margin-right: auto;
+        }
+
+        h1.NeuronHeader {
+          color: white;
+          font-size: 44px;
+          background-color:white;
+          
+             }
+      
+          h1.logo { 
+          color: black;
+          background-color: white;
+      
+            }
    
       </style>
-      
+
     </head>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!--Nav is having issues here, I can't figure it out. I have linked CSS properly (I believe). Moreover, the actual bar has to be moved using breaks instead of padding or margin. Updated: Sept 30th-->
         <body>
           <nav class="navbar">
             <div class="navbar-container container">
@@ -41,21 +83,23 @@
                     <span class="line line3"></span>
                 </div>
                 <ul class="menu-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Menu</a></li>
+                    <li><a href="#Who-We-Are">Who We Are</a></li>
+                    <li><a href="#What-Do-We-Offer">About</a></li>
+                    <li><a href="#Values">Category</a></li>
+                    <li><a href="#What-Is-Chip-Implementation">What Is Chip Implemenation?</a></li>
                     <li><a href="#">Testimonial</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <h1 class="logo">NSC 2022</h1>
+                <h1 id="logo">NSC 2022</h1>
             </div>
         </nav>
+
+        
            
               
               <section class="overlay"></section>
 
-            <h1>Neuron Software Coporation</h1>
+            <h1 id="NeuronHeader">Neuron Software Coporation</h1>
             
             <div class = "#Who-We-Are">
                 <h2>Who We Are?</h2>
@@ -67,7 +111,7 @@
             <br><br><br><br><br>
 
             <div class = "#What-Do-We-Offer">
-                <h2>What Do We Offer?</h2>
+                <h2>About Us</h2>
                 <p>Chip Implemenation, Training Software for Employers, Direct Stimulation and Therapy for HR Departments.</p>
                 <p>Consulting businesses is our top priority first before diagnosing. We want minimal invasiveness, but maximum result. We have a strong understanding that your time is valuable. We hold a standard to never let any Neuron Software User feel uncomfortable with the product or service.</p>
             </div>
@@ -79,13 +123,16 @@
                 <p>Collaboration will be at highest capability no matter the party; Always choosing to want to excel in software, not stagnate.</p>
                 <p>Business leaders and software leaders must work hand in hand. The division of the two creates an animosity that does not benefit anyone.</p>
                 <p>Regular internvetions to cast reflection on effectiveness and behavior to adjust accordingly.</p>
+                <img id="NeuronGif" src ="images/neuron.gif" alt="Neuron Gif">
             </div>
             <br><br><br><br><br>
 
             <div class = "What-Is-Chip-Implementation">
             <h2>What Is Chip Implementation?</h2>
         
-            <p>Chip implentation is the process of refining individuals that feel the lack of motivation and charisma as they once had. With the Neuron Chip, a low functioning employee is turned into a high functioner and 'A-Player'.</p>
+            <p>Chip Implementation is the process of refining individuals that feel the lack of motivation and charisma as they once had. With the Neuron Chip, a low functioning employee is turned into a high functioner and 'A-Player'.</p>
+            <p>Chip Implementation has been FDA approved since 2021 and it is leading the healthcare industry to standardize how we think of mental health in the workplace.</p>
+            <p></p>
         </div>
     </body>
 </html>
